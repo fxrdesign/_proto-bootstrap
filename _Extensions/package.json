@@ -1,0 +1,11 @@
+{
+    "name": "fxr_cdi_proto",
+    "version": "0.0.0",
+    "dependencies": {
+        "grunt" : "~0.4.2",
+        "grunt-contrib-watch" : "~0.5.3",
+        "grunt-contrib-compass" : "~0.7.2",
+        "grunt-contrib-uglify" : "~0.4.0",
+        "matchdep" : "~0.3.0"
+    }
+}
