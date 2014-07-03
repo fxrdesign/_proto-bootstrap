@@ -14,8 +14,10 @@
     5. Create new folder in <<Project-Name>>-Hub: js
     6. Edit config.rb
         * "css_dir = 'stylesheets'" becomes "css_dir = 'css'"
-        * "sass_dir = 'sass'" becomes "sass_dir = '_Components/sass'"
-    7. Copy file index.html from _proto/_Elements into <<Project-Name>>-Hub
+        * "sass_dir = "sass"" becomes "sass_dir = "_Components/sass""
+        * "javascripts_dir = "javascripts"" becomes "javascripts_dir = "js""
+        * Add "output_style = ":compact""
+    7. Move files and folders from with /_Elements into <<Project-Name>>-Hub
     
 3. Copy files to root of <<Project-Name>>-Hub from _proto/_Extensions
     * Gruntfile.js
@@ -49,3 +51,4 @@
 
 ** 0.1 of the Hub Build Out Doc - Updated May 18, 2014 **
 ** 0.2 Update July 2, 2014 - Added 7. and project files rearranged in prep for putting in Git repo
+** 0.3 Update July 3, 2013 - Revised 2.6 to include js directory changes
