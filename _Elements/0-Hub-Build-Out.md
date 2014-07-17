@@ -9,14 +9,14 @@
 2. Setup Project Hub directory: 
     1. `$ compass create [Project-Name]-Hub -r bootstrap-sass --using bootstrap`
     2. **Create** new folder in [Project-Name]-Hub: **_Components** 
-    3. Move /sass and /javascripts into /_Components
-    4. Rename /stylesheets to /css
+    3. Move */sass* and */javascripts* into the now created */_Components*
+    4. Rename */stylesheets* to */css*
     5. **Create** new folder in [Project-Name]-Hub: **js**
     6. Edit config.rb
-        * _css\_dir = "stylesheets"_ becomes _css_dir = "css"_
-        * _sass\_dir = "sass"_ becomes _sass_dir = "_Components/sass"_
-        * _javascripts_dir = "javascripts"_ becomes _javascripts_dir = "js"_
-        * Add _output_style = ":compact"_
+        * `css\_dir = "stylesheets"` becomes `css_dir = "css"`
+        * `sass\_dir = "sass"_ becomes `sass_dir = "_Components/sass"`
+        * `javascripts_dir = "javascripts"` becomes `javascripts_dir = "js"`
+        * Add `output_style = ":compact"`
     7. Move files and folders from with /_Elements into <<Project-Name>>-Hub
     
 3. Copy files to root of [Project-Name]-Hub from \_proto/_Extensions
@@ -48,7 +48,7 @@
 
 # Change Log
 
-** 0.1 of the Hub Build Out Doc - Updated May 18, 2014 **
-** 0.2 Update July 2, 2014 - Added 7. and project files rearranged in prep for putting in Git repo
-** 0.3 Update July 3, 2014 - Revised 2.6 to include js directory changes
-** 0.4 Update July 17, 2014 - Made clearer markdown
+* _0.1 of the Hub Build Out Doc - Updated May 18, 2014_
+* _0.2 Update July 2, 2014 - Added 7. and project files rearranged in prep for putting in Git repo_
+* _0.3 Update July 3, 2014 - Revised 2.6 to include js directory changes_
+* _0.4 Update July 17, 2014 - Made clearer markdown_
